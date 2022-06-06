@@ -1,0 +1,28 @@
+.input {
+	border: 1px #ccc solid;
+	padding: 10px;
+
+	text-align: center;
+}
+.input h2{
+	margin-top: 2px;
+}
+
+.buttons {
+	display: grid;
+	grid-gap: 10px;
+	grid-template-columns: 120px 120px 120px;
+	grid-template-rows: 120px 120px 120px;
+	justify-content: center;
+	align-items: space-evenly;
+	align-content: space-evenly;
+}
+
+.buttons div {
+	border: 1px #ccc solid;
+	padding: 10px;
+}
+
+.buttons h2 {
+	text-align: center;
+}
