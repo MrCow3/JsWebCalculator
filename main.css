@@ -26,3 +26,15 @@
 .buttons h2 {
 	text-align: center;
 }
+
+.btn {
+	&:focus {
+    		border: 3px #ccc solid;
+    		outline: 0;
+	}
+}
+
+
+
+
+
